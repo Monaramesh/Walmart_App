@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A041183320E04025003F2F6F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A041183220E04025003F2F6F /* CollectionViewController.swift */; };
+		A041183520E07C72003F2F6F /* walmartAdd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A041183420E07C72003F2F6F /* walmartAdd.jpg */; };
+		A06EC5F320E558970020012A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EC5F220E558970020012A /* ViewController.swift */; };
+		A06EC5F520E56B5C0020012A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A06EC5F420E56B5C0020012A /* icon.png */; };
+		A06EC5FF20E6B5AD0020012A /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = A06EC5FE20E6B5AD0020012A /* launchimage.png */; };
 		A08CFE1620DB0C870095849F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CFE1520DB0C870095849F /* AppDelegate.swift */; };
-		A08CFE1820DB0C870095849F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CFE1720DB0C870095849F /* ViewController.swift */; };
 		A08CFE1B20DB0C870095849F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08CFE1920DB0C870095849F /* Main.storyboard */; };
 		A08CFE1D20DB0C8A0095849F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08CFE1C20DB0C8A0095849F /* Assets.xcassets */; };
 		A08CFE2020DB0C8A0095849F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08CFE1E20DB0C8A0095849F /* LaunchScreen.storyboard */; };
+		A08CFE2820DB0D650095849F /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CFE2720DB0D650095849F /* ItemStore.swift */; };
+		A08CFE2A20DB0D710095849F /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CFE2920DB0D710095849F /* ItemCell.swift */; };
+		A08CFE2C20DB20610095849F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08CFE2B20DB20610095849F /* DetailsViewController.swift */; };
+		A0A6A27420DFE8680043A00A /* navlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0A6A27320DFE8680043A00A /* navlogo.jpg */; };
+		A0D756FF20DECC6400EB050B /* w2.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D756FE20DECC6400EB050B /* w2.png */; };
+		A0D7570520DF27E100EB050B /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D7570420DF27E100EB050B /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A041183220E04025003F2F6F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		A041183420E07C72003F2F6F /* walmartAdd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walmartAdd.jpg; sourceTree = "<group>"; };
+		A06EC5EC20E557A00020012A /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		A06EC5ED20E557A70020012A /* w_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w_logo.jpg; sourceTree = "<group>"; };
+		A06EC5EE20E557BE0020012A /* wl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wl1.png; sourceTree = "<group>"; };
+		A06EC5EF20E557CB0020012A /* wmt_h_r_c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wmt_h_r_c.jpg; sourceTree = "<group>"; };
+		A06EC5F220E558970020012A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
+		A06EC5F420E56B5C0020012A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../../Downloads/icon.png; sourceTree = "<group>"; };
+		A06EC5FE20E6B5AD0020012A /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchimage.png; path = Assets/launchimage.png; sourceTree = "<group>"; };
 		A08CFE1220DB0C870095849F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08CFE1520DB0C870095849F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A08CFE1720DB0C870095849F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A08CFE1A20DB0C870095849F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A08CFE1C20DB0C8A0095849F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A08CFE1F20DB0C8A0095849F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A08CFE2120DB0C8A0095849F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08CFE2720DB0D650095849F /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		A08CFE2920DB0D710095849F /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		A08CFE2B20DB20610095849F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A0A6A27320DFE8680043A00A /* navlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navlogo.jpg; sourceTree = "<group>"; };
+		A0D756FE20DECC6400EB050B /* w2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w2.png; sourceTree = "<group>"; };
+		A0D7570420DF27E100EB050B /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A06EC5EA20E557840020012A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A08CFE2720DB0D650095849F /* ItemStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A06EC5EB20E557970020012A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A06EC5ED20E557A70020012A /* w_logo.jpg */,
+				A0D756FE20DECC6400EB050B /* w2.png */,
+				A06EC5EF20E557CB0020012A /* wmt_h_r_c.jpg */,
+				A041183420E07C72003F2F6F /* walmartAdd.jpg */,
+				A06EC5EE20E557BE0020012A /* wl1.png */,
+				A06EC5F420E56B5C0020012A /* icon.png */,
+				A0A6A27320DFE8680043A00A /* navlogo.jpg */,
+				A06EC5EC20E557A00020012A /* noimage.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A06EC5F120E557F40020012A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A08CFE2B20DB20610095849F /* DetailsViewController.swift */,
+				A06EC5F220E558970020012A /* ViewController.swift */,
+				A041183220E04025003F2F6F /* CollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A06EC5F720E56C290020012A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0D7570420DF27E100EB050B /* MyCollectionViewCell.swift */,
+				A08CFE2920DB0D710095849F /* ItemCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A08CFE0920DB0C870095849F = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +120,12 @@
 		A08CFE1420DB0C870095849F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				A06EC5FE20E6B5AD0020012A /* launchimage.png */,
+				A06EC5F720E56C290020012A /* Views */,
+				A06EC5F120E557F40020012A /* Controllers */,
+				A06EC5EB20E557970020012A /* Assets */,
+				A06EC5EA20E557840020012A /* Models */,
 				A08CFE1520DB0C870095849F /* AppDelegate.swift */,
-				A08CFE1720DB0C870095849F /* ViewController.swift */,
 				A08CFE1920DB0C870095849F /* Main.storyboard */,
 				A08CFE1C20DB0C8A0095849F /* Assets.xcassets */,
 				A08CFE1E20DB0C8A0095849F /* LaunchScreen.storyboard */,
@@ -122,9 +192,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06EC5FF20E6B5AD0020012A /* launchimage.png in Resources */,
+				A041183520E07C72003F2F6F /* walmartAdd.jpg in Resources */,
+				A0D756FF20DECC6400EB050B /* w2.png in Resources */,
 				A08CFE2020DB0C8A0095849F /* LaunchScreen.storyboard in Resources */,
+				A06EC5F520E56B5C0020012A /* icon.png in Resources */,
 				A08CFE1D20DB0C8A0095849F /* Assets.xcassets in Resources */,
 				A08CFE1B20DB0C870095849F /* Main.storyboard in Resources */,
+				A0A6A27420DFE8680043A00A /* navlogo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A08CFE1820DB0C870095849F /* ViewController.swift in Sources */,
+				A08CFE2A20DB0D710095849F /* ItemCell.swift in Sources */,
+				A0D7570520DF27E100EB050B /* MyCollectionViewCell.swift in Sources */,
 				A08CFE1620DB0C870095849F /* AppDelegate.swift in Sources */,
+				A041183320E04025003F2F6F /* CollectionViewController.swift in Sources */,
+				A06EC5F320E558970020012A /* ViewController.swift in Sources */,
+				A08CFE2820DB0D650095849F /* ItemStore.swift in Sources */,
+				A08CFE2C20DB20610095849F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

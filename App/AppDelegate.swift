@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  App
 //
-//  Created by Palaniappan MN on 6/20/18.
+//  Created by Mona Ramesh on 6/20/18.
 //  Copyright © 2018 Mona Ramesh. All rights reserved.
 //
 
@@ -12,10 +12,19 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    func uicolorFromHex(rgbValue:UInt32)->UIColor{
+        let red = CGFloat((rgbValue & 0xFF0000) >> 16)/256.0
+        let green = CGFloat((rgbValue & 0xFF00) >> 8)/256.0
+        let blue = CGFloat(rgbValue & 0xFF)/256.0
+        return UIColor(red:red, green:green, blue:blue, alpha:1.0)
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UINavigationBar.appearance().barTintColor = uicolorFromHex(rgbValue: 0x007dc6)
+        UIApplication.shared.statusBarStyle = .lightContent
+        
         return true
     }
 
